@@ -1,0 +1,44 @@
+Package: BayesMortality
+Type: Package
+Title: Mortality graduation with Bayesian approach
+Version: 0.1.0
+Author: Laboratório de Matemática Aplicada - UFRJ
+Maintainer: Lucas Moura <lucasmfes77@gmail.com>
+    Luiz Fernando Figueiredo <villardefig@gmail.com>
+Description: This package provide tools to fit the HP model using Bayesian approach
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Depends: R (>= 2.10)
+Imports:
+ stats,
+ MortalityLaws,
+ MASS,
+ progress,
+ ggplot2,
+ scales
+RoxygenNote: 7.2.1
+Collate: 
+    'Heatmap_default.R'
+    'USA.R'
+    'expectancy_default.R'
+    'fun_aux.R'
+    'fitted_hp.R'
+    'qx_ci.R'
+    'expectancy_hp.R'
+    'heatmap_hp.R'
+    'hello.R'
+    'hp_poisson_reduced.R'
+    'hp_lognormal_reduced.R'
+    'hp_binomial_reduced.R'
+    'hp_poisson.R'
+    'hp_lognormal.R'
+    'hp_binomial.R'
+    'hp.R'
+    'sir_gompertz.R'
+    'hp_close.R'
+    'hp_mix.R'
+    'plot_chain.R'
+    'plot_hp.R'
+    'print_hp.R'
+    'summary_hp.R'
